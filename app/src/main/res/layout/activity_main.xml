@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@color/colorPrimary"
     tools:context=".MainActivity">
 
     <RelativeLayout
@@ -17,6 +18,7 @@
             android:layout_height="wrap_content"
             android:text="Player 1: 0"
             android:freezesText="true"
+            android:textColor="#FFDF1B0D"
             android:textSize="30sp" />
 
         <TextView
@@ -26,6 +28,7 @@
             android:layout_below="@+id/text_view_p1"
             android:text="Player 2: 0"
             android:freezesText="true"
+            android:textColor="#FF21E229"
             android:textSize="30sp" />
 
         <Button
@@ -35,6 +38,7 @@
             android:layout_alignParentEnd="true"
             android:layout_centerVertical="true"
             android:layout_marginEnd="33dp"
+            android:background="#FFF8E211"
             android:text="reset" />
 
     </RelativeLayout>
@@ -50,6 +54,7 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:freezesText="true"
+            android:backgroundTintMode="multiply"
             android:backgroundTint="@color/box"
             android:textSize="60sp" />
 
@@ -59,6 +64,7 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:freezesText="true"
+            android:backgroundTintMode="multiply"
             android:backgroundTint="@color/box"
             android:textSize="60sp" />
 
@@ -68,6 +74,7 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:freezesText="true"
+            android:backgroundTintMode="multiply"
             android:backgroundTint="@color/box"
             android:textSize="60sp" />
 
@@ -84,6 +91,7 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:freezesText="true"
+            android:backgroundTintMode="multiply"
             android:backgroundTint="@color/box"
             android:textSize="60sp" />
 
@@ -93,6 +101,7 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:freezesText="true"
+            android:backgroundTintMode="multiply"
             android:backgroundTint="@color/box"
             android:textSize="60sp" />
 
@@ -102,6 +111,7 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:freezesText="true"
+            android:backgroundTintMode="multiply"
             android:backgroundTint="@color/box"
             android:textSize="60sp" />
 
@@ -117,6 +127,7 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
+            android:backgroundTintMode="multiply"
             android:backgroundTint="@color/box"
             android:freezesText="true"
             android:textSize="60sp" />
@@ -127,6 +138,7 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:freezesText="true"
+            android:backgroundTintMode="multiply"
             android:backgroundTint="@color/box"
             android:textSize="60sp" />
 
@@ -136,6 +148,7 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:freezesText="true"
+            android:backgroundTintMode="multiply"
             android:backgroundTint="@color/box"
             android:textSize="60sp" />
 
