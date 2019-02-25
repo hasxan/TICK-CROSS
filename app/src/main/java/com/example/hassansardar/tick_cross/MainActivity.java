@@ -1,5 +1,6 @@
 package com.example.hassansardar.tick_cross;
 
+import android.graphics.Color;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -45,6 +46,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 resetGame();
             }
         });
+
     }
 
     @Override
@@ -55,8 +57,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         if (player1Turn) {
             ((Button) v).setText("X");
+            //((Button) v).setBackgroundColor(Color.RED);
         } else {
             ((Button) v).setText("O");
+           // (v).setBackgroundColor(Color.GREEN);
         }
 
         roundCount++;
@@ -143,6 +147,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         for (int i = 0; i < 3; i++) {
             for (int j = 0; j < 3; j++) {
                 buttons[i][j].setText("");
+                //buttons[i][j].getBackgroundTintList(getResources().getColor(R.color.box));
             }
         }
 
