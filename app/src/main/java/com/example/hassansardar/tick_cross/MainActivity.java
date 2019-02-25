@@ -130,7 +130,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     }
 
     private void draw() {
-       // Toast.makeText(this, "Draw!", Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "Draw!", Toast.LENGTH_SHORT).show();
         resetBoard();
     }
 
